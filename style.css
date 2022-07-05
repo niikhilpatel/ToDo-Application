@@ -15,6 +15,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-attachment: 100%;
+  background-size: fixedS;
   /* font-family: 'Poppins', sans-serif !important; */
   /* font-family: 'Roboto', sans-serif !important; */
 }
@@ -26,7 +28,7 @@ header img {
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.367);
 }
 .container {
-  width: 50%;
+  width: 90%;
   background-color: rgb(46, 41, 41);
   min-height: 70vh;
   border-radius: 4px;
@@ -58,7 +60,7 @@ form button {
 }
 
 form input {
-  width: 43%;
+  width: 33%;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   outline: none;
@@ -69,7 +71,7 @@ form button {
   background-color: #fe7bb0;
   cursor: pointer;
   transition: all 0.3s ease;
-  width: 6%;
+  width: 12%;
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
 }
